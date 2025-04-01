@@ -25,7 +25,7 @@ jobs:
           AWS_ACCESS_KEY_ID: "AKIA5OERTY2UHNQL6NCP"
           AWS_SECRET_ACCESS_KEY: "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"
           AWS_DEFAULT_REGION: "eu-north-1"
-      - run: aws cloudfront create-invalidation --distrubution ET4PQC84CU8GC --paths "/container/latest/index.html"
+      - run: aws cloudfront create-invalidation --distrubution-id ET4PQC84CU8GC --paths "/container/latest/index.html"
         env:
           AWS_ACCESS_KEY_ID: "AKIA5OERTY2UHNQL6NCP"
           AWS_SECRET_ACCESS_KEY: "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"
