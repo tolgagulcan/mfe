@@ -4,7 +4,7 @@ const commonConfig = require("./webpack.common.js");
 const pacjageJson = require("../package.json");
 const dependencies = pacjageJson.dependencies;
 
-const domain = "dztb3x2pdb4we.cloudfront.net";
+const domain = "https://dztb3x2pdb4we.cloudfront.net";
 
 const prodConfig = {
   mode: "production",
